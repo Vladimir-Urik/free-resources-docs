@@ -1,7 +1,11 @@
 {
   "index": "Introduction",
-  "eventannouncer": "Event Announcer v1.0",
-  "simplefaq": "Simple FAQ v1.0",
+  "--": {
+    "type": "separator",
+    "title": "A Separator"
+  },
+  "eventannouncer": "🛎️ Event Announcer v1.0",
+  "simplefaq": "📚 Simple FAQ v1.0",
   "contact": {
     "title": "Support Discord ↗",
     "type": "page",

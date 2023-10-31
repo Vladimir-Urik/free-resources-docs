@@ -10,9 +10,27 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.gg/zj72haU7gN',
   },
-  docsRepositoryBase: 'https://github.com/Vladimir-Urik/free-resources-docs',
+  docsRepositoryBase: 'https://github.com/Vladimir-Urik/free-resources-docs/tree/main/',
   footer: {
     text: 'GGGEDR\'s Free Resources Docs',
+  },
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return (
+            <div style={{ width: "100%" }} />
+        )
+      }
+      if (title === 'Introduction') {
+        return <>❓ {title}</>
+      }
+      return <>{title}</>
+    }
+  },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – FRD'
+    }
   },
 }
 
