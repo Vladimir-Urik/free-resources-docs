@@ -1,15 +1,11 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "eventannouncer": "Event Announcer v1.0",
+  "simplefaq": "Simple FAQ v1.0",
   "contact": {
-    "title": "Contact ↗",
+    "title": "Support Discord ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://discord.gg/zj72haU7gN",
     "newWindow": true
   }
 }
